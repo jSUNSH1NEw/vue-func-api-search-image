@@ -4,7 +4,7 @@ import App from './App.vue';
 
 Vue.config.productionTip = false;
 
-Vue.use(plugin)
+Vue.use(plugin);
 
 new Vue({
   render: (h) => h(App),
